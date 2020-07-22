@@ -91,7 +91,7 @@ if __name__ == "__main__":
             speak(f'Sir, the time is {strTime}')
 
         elif 'open code' in query:
-            codePath = "C:\\Users\\divya\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            codePath = "C:\\Users\\your_computer_user-name goes here\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
             os.startfile(codePath)
         
         elif 'send email to divya' in query:
