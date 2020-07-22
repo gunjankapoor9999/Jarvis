@@ -100,7 +100,7 @@ if __name__ == "__main__":
                 content = takeCommand()
                 to = 'emailaccount of recepent goes here'
                 sendEmail(to,content)
-                speak('Email has been sent! ')
+                speak('Email has been sent!! ')
             except Exception as e:
                 print(e)
                 speak('Sorry, can\'t send email')
